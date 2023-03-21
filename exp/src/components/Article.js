@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+// import styles from './article.module.css';
+// import * as classnames from 'classnames';
+
 class Article extends Component {
     state = {
         isOpen: false
@@ -7,6 +10,12 @@ class Article extends Component {
     render() {
         const { article } = this.props
         const body = this.state.isOpen && <section>{article.info}</section>
+        // const className = classnames(
+        //     styles.article,
+        //     {
+        //         [styles.article__success]: this.props.success,
+        //     },
+        // );
 
         return (
             <div >
