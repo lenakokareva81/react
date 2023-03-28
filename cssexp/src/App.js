@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button } from './components/button';
+import React from 'react';
+import { Input } from './components/input';
+
 
 function App() {
   return (
@@ -17,6 +21,8 @@ function App() {
         >
           Learn React
         </a>
+        <Button text='click me' />
+        <Input />
       </header>
     </div>
   );
