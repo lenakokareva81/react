@@ -10,7 +10,8 @@
     transition: all 1s;
 }
 
-.activ:hover {
+.activ:hover,
+.activ__checked {
     width: 20%;
     margin: 0px 0px 0px 0px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -35,9 +36,19 @@
     ;
 }
 
+.name__checked {
+    color: rgb(245, 91, 91);
+}
+
 .price {
     color: rgb(250, 249, 249);
     font-size: 30px;
+}
+
+.price__checked {
+    color: rgb(246, 179, 179);
+    font-size: 35px;
+    transition: all 0.5s;
 }
 
 sup {
@@ -68,18 +79,35 @@ sub {
 
 }
 
-.column0 {
+.column0__header {
+    background-color: rgb(6, 93, 93);
+}
+
+.column0__tarif {
     background-color: rgb(46, 195, 195);
 }
 
-.column1 {
+
+.column1__header {
+    background-color: rgb(33, 31, 47);
+}
+
+.column1__tarif {
     background-color: rgb(109, 103, 142);
 }
 
-.column2 {
+.column2__header {
+    background-color: rgb(148, 72, 72);
+}
+
+.column2__tarif {
     background-color: rgb(245, 123, 123);
 }
 
-.column3 {
-    background-color: rgb(91, 192, 108);
+.column3__header {
+    background-color: rgb(73, 99, 77);
+}
+
+.column3__tarif {
+    background-color: rgb(121, 164, 128);
 }

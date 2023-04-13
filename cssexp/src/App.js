@@ -1,30 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import { Button } from './components/button';
-import React from 'react';
-import { Input } from './components/input';
 
+import './App.css';
+import Test2 from './examles_ cycle/Test2.js'
+import Testfun from './examles_ cycle/testfun.js'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <Button text='click me' />
-        <Input />
-      </header>
-    </div>
+
+  return (<div>
+    {/* <Test2 arg={120}></Test2> */}
+    <Testfun arg={55}></Testfun>
+  </div>
   );
 }
 
